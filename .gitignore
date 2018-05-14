@@ -48,4 +48,3 @@ private-*.js
 private-*.toml
 SECRET-api-keys.json
 *.csv
-configs/
