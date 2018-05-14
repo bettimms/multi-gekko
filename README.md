@@ -24,7 +24,7 @@ Change file under `gekko/core/util.js` with `multi-gekko/src/util.js` issue [#21
 
 #### Step 3
 
-Go to `multi-gekko/src/pair-config.js` and configure currencies, exchanges and strategies.
+Go to `multi-gekko/src/configs/pair-config.js` and configure currencies, exchanges and strategies.
 Config files will be generated for each asset and strategy.
 
 #### Step 4
