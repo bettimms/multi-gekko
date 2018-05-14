@@ -29,7 +29,7 @@ Config files will be generated for each asset and strategy.
 
 #### Step 4
 
-Go to `multi-gekko/index.js` set path to your local `gekko` folder based on your `OS` (tested in Mac and Windows)
+Go to `multi-gekko/index.js` set path to your local `gekko.js` file based on your `OS` (tested in Mac and Windows)
 
 #### Step 5
 ```
