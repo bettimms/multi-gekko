@@ -1,0 +1,31 @@
+{
+  "name": "multi-gekko",
+  "version": "1.0.0",
+  "author": "Betim S",
+  "license": "MIT",
+  "description": "Generate asset/currency config files for gekko trading bot",
+  "main": "index.js",
+  "repository": "https://github.com/bettimms/multi-gekko.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node ./index.js",
+    "killall": "killall node",
+    "killall-w": "taskkill /IM node.exe -F",
+    "remove-node_modules": "rm -rf node_modules || rd /s /q node_modules",
+    "remove-configs": "rm -rf configs || rd /s /q configs",
+    "remove-configs-win": "rd /s /q configs"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  },
+  "keywords": [
+    "multi-gekko",
+    "gekko",
+    "gekko-multitrader",
+    "multi--crypto-currency"
+  ],
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "npm-run-all": "^4.1.2"
+  }
+}
