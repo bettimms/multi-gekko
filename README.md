@@ -33,18 +33,18 @@ Go to `multi-gekko/index.js` set path to your local `gekko` folder based on your
 
 #### Step 5
 ```
-npm generate
+npm run generate
 ```
 You should see configs folder with config files for each asset generated inside `multi-gekko` folder
 
-- NOTE: <small>It's strongly suggested that every time, before running `npm generate` command to run `npm remove-configs` on Mac 
-or `npm remove-configs-win` for Windows, except on very first time or when `configs` folder is not generated yet!
+- NOTE: <small>It's strongly suggested that every time, before running `npm run generate` command to run `npm run remove-configs` on Mac 
+or `npm run remove-configs-win` for Windows, except on very first time or when `configs` folder is not generated yet!
 </small>
 
 
 #### Step 6
 ```
-npm run-all
+npm run run-all
 ```
 <small>(or check `package.json` `scripts` tag to see other generated options for each asset)</small>
 
