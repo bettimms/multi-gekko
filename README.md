@@ -50,7 +50,7 @@ npm run run-all
 
 
 ## Limitations
-- If you set multiple strategies per asset then gekko might not be optimized to fetch an asset and analyze if for each strategy, rather it goes and fetches same asset for each strategy (this is my assumption)
+- If you set multiple strategies per asset then gekko might not be optimized to fetch an asset and analyze it for each strategy, rather it goes and fetches same asset for each strategy (this is my assumption)
 - Be careful of being `IP blacklisted` if you exceed exchange limitations! For example if we assume that `binance` has a limit of `1200` `requests/minute`, then you might be limited to watch only 20 assets for binance (unless you find a way using proxies ,if you do please share)
 
 ## Donation
