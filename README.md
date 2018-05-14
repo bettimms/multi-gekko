@@ -65,7 +65,9 @@ If this tool has made your life easier and you'r willing to support this project
 
 ## TODO
 - Integrate with one of current backtesting tools, read most profitable strategies periodically (daily, weekly, monthly) and generate config files with most profitable strategies and assets/currencies
-
+- Generate unique strategy for each asset
+- Better and more flexible configuration
+- Read automatically strategies from `.toml` files
 
 ## Liability
 I am not your financial adviser, nor is this tool. Use this program as an educational tool, and nothing more. None of the contributors to this project are liable for any losses you may incur. Be wise and always do your own research!
